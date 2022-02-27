@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*
+{
+    padding: 0%;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body
+{
+padding: 15px;
+background-color: black;
+}
+
+#conteiner
+{
+position: relative;  /*Conteiner maior: deve receber posicionamento relativo*/
+background-color: aquamarine;
+border-radius: 3px;
+border-radius: 3px;
+border: 3px solid black;
+height: 500px;
+width: 350px;
+margin: auto;
+
+padding: 10px;
+}
+#box
+{
+position:absolute; /*caixa a ser centralizada verticalmente: deve receber posicionamento absoluto*/
+height: 200px;
+border-radius: 3px;
+border: 3px solid black;
+background-color: bisque;
+padding: 10px;
+
+left: 50%;
+top: 50%;
+
+transform: translate(-50%, -50%);
+}
